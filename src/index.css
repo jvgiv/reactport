@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* App.js */
+.container {
+  width: 60%;
+  margin: 0 auto;
+  }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.navbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  height: 45px;
+  width: 10%;
+}
+
+.clickedbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #E2E3E7;
+  box-shadow: 3px 3px 3px #413D3E;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  height: 45px;
+  width: 10%;
+}
+
+.display {
+  padding-top: 50px;
+}
+
+.project {
+  padding-top: 50px;
+}
+
+.title {
+  margin-left: 10px
+}
+
+.paragraph {
+  margin: 0 15px 0 15px;
+  text-align: justify;
+}
